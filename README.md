@@ -21,7 +21,7 @@ To use this project, please follow these steps:
 ## Usage
 
 1. Prepare the voice recording in .wav format.
-2. Run the voice segmentation script and follow the instructions to set time spots for switching between colleagues and leaders.
+2. Run the voice segmentation script and follow the instructions to set time spots for switching between speakers.
 3. Once the segmentation is complete, run the summary generation script using LLM to obtain the meeting summary.
 
 Please note that the OpenAI API access is required for the LLM model. Ensure that you have the necessary credentials and permissions.
@@ -33,7 +33,7 @@ Welcome discussing! seeking for ideas, bug reports, or enhancements, please open
 
 ## README.CN
 
-LLM-Voice2MeetingSummary 是一个项目，旨在利用 OpenAI 的 GPT 模型 LLM，从语音录音中自动生成会议摘要。该项目受到了[机器之心](https://mp.weixin.qq.com/s/EIJqlbNcOWBVNfi4QVaVBQ)和 OpenAI 的会议纪要教程的启发，教程链接[在此](https://platform.openai.com/docs/tutorials/meeting-minutes)。
+LLM-Voice2MeetingSummary 是一个旨在利用大模型帮助我们将语音录音中自动生成会议摘要。该项目受到了[机器之心](https://mp.weixin.qq.com/s/EIJqlbNcOWBVNfi4QVaVBQ)和 OpenAI 的会议纪要教程的启发，教程链接[在此](https://platform.openai.com/docs/tutorials/meeting-minutes)。
 
 ## 概述
 
@@ -54,8 +54,9 @@ LLM-Voice2MeetingSummary 是一个项目，旨在利用 OpenAI 的 GPT 模型 LL
 ## 使用方法
 
 1. 准备 .wav 格式的语音录音。
-2. 运行语音分割脚本，并按照说明设置同事和领导之间的切换时间点。
+2. 运行语音分割脚本，并按照说明设置对话者之间的切换时间点。
 3. 完成分割后，使用 LLM 运行摘要生成脚本，获取会议摘要。
 
 LLM 模型需要访问 OpenAI API。请确保具备必要的凭据和权限。
+注意隐私保护的数据安全问题。
 
